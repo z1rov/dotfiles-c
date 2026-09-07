@@ -3,7 +3,7 @@ set -Eeuo pipefail
 
 USER_NAME="${SUDO_USER:-${USER:-$(id -un)}}"
 SUDO_FILE="/etc/sudoers.d/99_${USER_NAME}"
-DOTFILES_REPO="https://github.com/genarovvv/dotfiles-c"
+DOTFILES_REPO="https://github.com/z1rov/dotfiles-c"
 Z1_REPO="https://github.com/z1rov/z1"
 SELF_TARGET="/usr/bin/camcam"
 DOTDIR="$HOME/dotfiles-c"
